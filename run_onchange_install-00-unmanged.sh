@@ -13,6 +13,6 @@ fi
 
 # oh-my-zsh
 if ! [ -d ~/.oh-my-zsh ] ; then
-    echo hi
+    sudo apt upgrade && sudo apt install zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 fi
