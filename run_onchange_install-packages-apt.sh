@@ -15,7 +15,7 @@ if ! op --version ; then
 fi
 
 # ----------------------------- Install with apt ------------------------------
-sudo apt update
+sudo apt update -y
 sudo apt install -y \
     1password-cli \
     curl \
