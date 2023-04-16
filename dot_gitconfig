@@ -1,0 +1,9 @@
+[core]
+	excludesFile = ~/.gitignore
+[init]
+	defaultBranch = main
+[user]
+	email = jadenmossman2000@gmail.com
+	name = JP Mossman
+[alias]
+	tree = log --graph --oneline
