@@ -10,7 +10,7 @@ sudo apt update
 
 # rust
 if ! rustup --version ; then
-    curl https://sh.rustup.rs -sSf | sh -s -- --help -q -y
+    curl https://sh.rustup.rs -sSf | sh -s -- -q -y
 fi
 
 # oh-my-zsh
