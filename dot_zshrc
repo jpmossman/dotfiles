@@ -21,7 +21,7 @@ ZSH_THEME="julia"
 plugins=(git)
 
 # Set prompt engine
-eval "$(oh-my-posh init zsh --config /mnt/c/Users/mrmoo/projects/ohmyposh-themes/julia.yaml)"
+eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/julia.yaml)"
 source $ZSH/oh-my-zsh.sh
 # export STARSHIP_CONFIG=~/.config/starship/julia.toml
 # eval "$(starship init zsh)"
@@ -50,6 +50,7 @@ alias ll="ls -l"
 alias lla="ls -lah"
 alias cat="bat"
 alias lTree="exa --icons -T --git-ignore -I .git"
+alias cz="chezmoi"
 
 # Setup autocompletion for one password
 eval "$(op completion zsh)"; compdef _op op
