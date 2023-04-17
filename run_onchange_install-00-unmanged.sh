@@ -18,6 +18,7 @@ fi
 if ! [ -d ~/.oh-my-zsh ] ; then
     sudo apt install -y zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+    mv $HOME/.zshrc.pre-oh-my-zsh $HOME/.zshrc
 fi
 
 # oh-my-posh
