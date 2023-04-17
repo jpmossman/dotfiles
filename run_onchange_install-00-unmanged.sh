@@ -11,6 +11,7 @@ sudo apt update
 # rust
 if ! rustup --version ; then
     curl https://sh.rustup.rs -sSf | sh -s -- -q -y
+    echo "source $HOME/.cargo/env" >> ~/.bashrc
 fi
 
 # oh-my-zsh
