@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 # Install rust crates
 
-source $HOME/.cargo/env
+. $HOME/.cargo/env
 
 # sccache helps with build times
 cargo install sccache
