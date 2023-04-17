@@ -18,6 +18,7 @@ fi
 sudo apt update -y
 sudo apt install -y \
     1password-cli \
+    build-essential \
     curl \
     git \
     make \
