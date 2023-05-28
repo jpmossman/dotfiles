@@ -57,7 +57,7 @@ def main():
         return
 
     # Check files
-    for real, this in get_tracked(f_path):
+    for real, this in get_tracked(str(f_path)):
         # Check if the file even exists on system
         if not os.path.exists(real):
             # If it's a dir, just make it
