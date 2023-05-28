@@ -8,3 +8,8 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply https://github.com/jpmossma
 sudo apt install -y curl
 sh -c "$(curl -fsLS http://jmossman.me/dotfiles/easy-install.sh)"
 ```
+
+```bash
+sudo apt install -y curl
+sh -c "$(curl -fsLS http://jmossman.me/dotfiles/easy-install-dotmanager-test.sh)"
+```
