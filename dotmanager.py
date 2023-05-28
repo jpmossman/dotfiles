@@ -21,7 +21,7 @@ def fill_eq(f1, f2) -> bool:
 
 def get_tracked(root:str) -> Tuple[str,str]:
     def get_pair(s,p):
-        return os.path.join(os.path.expanduser(".\\test_home"),s[len(root)+1:],p), \
+        return os.path.join(os.path.expanduser("~"),s[len(root)+1:],p), \
         os.path.join(s,p)
     for r,ds,fs in os.walk(root):
         for f in fs:
