@@ -40,6 +40,7 @@ fi
 export PATH=~/.local/bin:$PATH
 export PATH=~/scripts:$PATH
 export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
+export PATH=~/.local/share/bob/nvim-bin:$PATH
 . "$HOME/.cargo/env"
 
 # Add personal aliases

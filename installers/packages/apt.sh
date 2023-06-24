@@ -22,7 +22,6 @@ sudo apt install -y \
     curl \
     git \
     make \
-    neovim \
     openssh-server \
     ripgrep \
     wget \
